@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0; i <jsonArray.length() ; i++) {
                     JSONObject postObject = jsonArray.getJSONObject(i);
                     Post post = new Post();
-                    String id  = postObject.getString("id");
+                    int id  = postObject.getInt("id");
                     String name = postObject.getString("name");
                     post.setid(id);
                     post.setname(name);

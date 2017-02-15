@@ -7,11 +7,11 @@ package com.example.nimmy.task8_quotes;
 public class Post {
 
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -23,14 +23,14 @@ public class Post {
         this.name = name;
     }
 
-    public String id;
+    public int id;
     public String name;
 
-    public String getid() {
+    public int getid() {
         return id;
     }
 
-    public void setid(String id) {
+    public void setid(int id) {
         this.id = id;
     }
 
